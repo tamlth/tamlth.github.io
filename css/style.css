@@ -77,7 +77,7 @@ header.banner_section {
 
 button.btn.login-btn {
     padding: 8px 24px;
-    background: #037ef3;
+    background: #00bd3f;
     color: #fff;
     border: none;
     font-size: 0.9em;
@@ -88,6 +88,7 @@ button.btn.login-btn:hover {
     background: #ffc107;
     color: #0e0d0d;
 }
+
 
 /*** Navigation Styles ***/
 
@@ -134,7 +135,7 @@ ul.nav-honey {
 #logo {
     width: 55px;
     height: 55px;
-    background: #037ef3;
+    background: #fff;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -165,6 +166,7 @@ div#word-mark h1 a {
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
 }
+
 
 /*** Menu Styles ***/
 
@@ -197,7 +199,7 @@ div#word-mark h1 a {
 #menu-toggle {
     width: 55px;
     height: 55px;
-    background: #037ef3;
+    background: #00bd3f;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -253,11 +255,12 @@ div#word-mark h1 a {
 }
 
 .nav-honey li a.active {
-    color: #037ef3;
+    color: #00bd3f;
 }
 
 
 /*--/banner--*/
+
 
 /*-- /header --*/
 
@@ -289,12 +292,12 @@ a.btn.work {
     -moz-border-radius: 25px;
     -o-border-radius: 25px;
     -ms-border-radius: 25px;
-    color: #037ef3;
+    color: #00bd3f;
 }
 
 a.btn.work:hover,
 a.btn.work.active {
-    background: #037ef3;
+    background: #00bd3f;
     color: #fff;
 }
 
@@ -333,13 +336,14 @@ a.btn.work.active {
     }
 }
 
+
 /*--//banner--*/
+
 
 /*--/about--*/
 
 h4.sub-tittle-w3 {
-    font-size: 0.85em;
-    color: #037ef3;
+    color: #00bd3f;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 4px;
@@ -351,6 +355,7 @@ h3.tittle-w3 {
     color: #333338;
     font-weight: 700;
 }
+
 
 /*----*/
 
@@ -367,7 +372,9 @@ h4.progress-tittle-w3 {
     background: #e1e2e2;
 }
 
+
 /*----*/
+
 
 /*--//about--*/
 
@@ -389,8 +396,7 @@ h4.progress-tittle-w3 {
 }
 
 .service-in .card:hover {
-    background: #037ef3;
-
+    background: #00bd3f;
 }
 
 .service-in p.card-text {
@@ -410,12 +416,13 @@ h4.progress-tittle-w3 {
     color: #fff;
 }
 
+
 /*--/tabs --*/
 
 .nav-pills .nav-link {
     padding: 0.7em 2em;
     letter-spacing: 1px;
-    color: #007bff;
+    color: #00bd3f;
     background-color: #fff;
     font-weight: 400;
     text-transform: uppercase;
@@ -429,11 +436,10 @@ h4.progress-tittle-w3 {
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
     color: #fff;
-    background: #007bff;
+    background: #00bd3f;
 }
-
 
 .tech-btm h5 {
     font-size: 0.9em;
@@ -470,7 +476,9 @@ p.sub-meta {
     color: #EB2941;
 }
 
+
 /*--//tabs--*/
+
 
 /*-- stats --*/
 
@@ -524,7 +532,9 @@ p.sub-meta {
     border-right: 0px;
 }
 
+
 /*--//stats--*/
+
 
 /*-- gallery --*/
 
@@ -604,6 +614,7 @@ p.quia {
     width: 100%;
 }
 
+
 /*-- //gallery --*/
 
 .experience {
@@ -615,6 +626,7 @@ p.quia {
     -ms-background-size: cover;
     padding: 2em 0;
 }
+
 
 /*--/testimonials--*/
 
@@ -661,7 +673,7 @@ p.quia {
 .testimonials_grid label {
     font-size: 0.7em;
     letter-spacing: 1px;
-    color: #037ef3;
+    color: #00bd3f;
     text-transform: uppercase;
 }
 
@@ -702,14 +714,15 @@ a.carousel-control-prev.test {
     height: 32px;
     border: 1px solid #ddd;
     margin-top: 7em;
-
 }
 
 .testimonials_grid-inn img {
     width: 15%;
 }
 
+
 /*-- //testimonials --*/
+
 
 /*--/contact--*/
 
@@ -784,7 +797,7 @@ p.sub {
     padding: 1.2em 3em;
     font-size: 14px;
     color: #fff;
-    background: #037ef3;
+    background: #00bd3f;
     border: none;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -795,7 +808,6 @@ p.sub {
     transition: 0.5s all;
     font-weight: 600;
     cursor: pointer;
-
 }
 
 .contact_grid_right input[type="submit"]:hover {
@@ -859,7 +871,9 @@ p.sub {
     color: #eff2f3;
 }
 
+
 /*-- //contact--*/
+
 
 /*--model-forms--*/
 
@@ -890,7 +904,7 @@ p.sub {
 }
 
 .login button.btn.btn-primary.submit:hover {
-    background: #037ef3;
+    background: #00bd3f;
 }
 
 .login a {
@@ -910,7 +924,9 @@ p.sub {
     height: auto;
 }
 
+
 /*--//model-forms--*/
+
 
 /*--responsive--*/
 
@@ -957,7 +973,6 @@ p.sub {
         width: 100%;
         height: 250px;
     }
-
 }
 
 @media(max-width:600px) {
@@ -967,7 +982,9 @@ p.sub {
     }
 }
 
+
 /*--//responsive--*/
+
 
 /*-- /footer --*/
 
@@ -992,14 +1009,14 @@ p.sub {
     color: #fff;
     width: 55px;
     height: 55px;
-    background: #037ef3;
+    background: #00bd3f;
     border-radius: 50%;
     vertical-align: middle;
     line-height: 2;
 }
 
 .copy-right-w3ls p a {
-    color: #037ef3;
+    color: #00bd3f;
 }
 
 ul.list-footer li a {
@@ -1011,7 +1028,6 @@ ul.list-footer li a {
 
 ul.list-footer li a:hover {
     color: #212529;
-
 }
 
 ul.list-footer li {
@@ -1037,12 +1053,13 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-    color: #037ef3;
-    border: 2px solid #037ef3;
-
+    color: #00bd3f;
+    border: 2px solid #00bd3f;
 }
 
+
 /*-- //footer --*/
+
 
 /*-- to-top --*/
 
@@ -1071,6 +1088,7 @@ ul.social-icons li a:hover {
     -moz-opacity: 0;
     filter: alpha(opacity=0);
 }
+
 
 /*-- //to-top --*/
 
@@ -1197,7 +1215,6 @@ ul.social-icons li a:hover {
         margin-bottom: 0;
         margin: 1em 0;
     }
-
     .contact_grid_right input[type="text"],
     .contact_grid_right input[type="email"],
     .contact_grid_right textarea {
@@ -1241,6 +1258,7 @@ ul.social-icons li a:hover {
         margin-top: 2em;
     }
 }
+
 
 /*** Responsive Menu For Smaller Device ***/
 
@@ -1574,7 +1592,6 @@ ul.social-icons li a:hover {
     .contact {
         height: 168vw;
     }
-
 }
 
 @media(max-width:440px) {
@@ -1691,5 +1708,6 @@ ul.social-icons li a:hover {
         width: 64%;
     }
 }
+
 
 /*--//responsive--*/

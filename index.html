@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-    <title>TamLTH</title>
+    <title>Hello! I'm Tam </title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -51,14 +51,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- nav -->
         <nav class="main-header d-flex">
             <div id="brand">
-                <div id="logo">
-                    <a href="index.html">
-                        <i class="fas fa-crosshairs"></i>
-                    </a>
-                </div>
+                <a href="index.html">
+                    <div id="logo" style="
+                background-image: url(../images/logo.png);
+                background-position: center;
+                background-size: cover;">
+                    </div>
+                </a>
                 <div id="word-mark">
                     <h1>
-                        <a href="index.html">Recognize</a>
+                        <a href="index.html"></a>
                     </h1>
                 </div>
             </div>
@@ -72,7 +74,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <ul class="text-center nav-honey">
                     <li>
-                        <a href="index.html" class="active ">Home</a>
+                        <a class="scroll active" href="#home">Home</a>
                     </li>
                     <li>
                         <a class="scroll" href="#about">About</a>
@@ -86,11 +88,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <li>
                         <a class="scroll" href="#contact">Contact</a>
                     </li>
-                    <li class="login">
-                        <button type="button" class="btn login-btn text-uppercase " data-toggle="modal" data-target="#exampleModalCenter">
-                          Login
-                        </button>
-                    </li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -98,18 +95,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- //nav -->
         <!-- banner -->
         <div class="banner_section">
-            <div class="snow-container">
-                <div class="snow foreground"></div>
-                <div class="snow foreground layered"></div>
-                <div class="snow middleground"></div>
-                <div class="snow middleground layered"></div>
-                <div class="snow background"></div>
-                <div class="snow background layered"></div>
-            </div>
             <div class="banner-info text-uppercase">
                 <h6 data-aos="fade-right">Introduction</h6>
-                <h5 data-aos="fade-right">Hello, my name is Daniel</h5>
-                <h3 data-text="I'm a Programmer">I'm a Programmer</h3>
+                <h5 data-aos="fade-right">Hello, my name is Tam</h5>
+                <h3 data-aos="fade-right" style="color: white;">I'm a web developer</h3>
                 <div class="ban-buttons mt-3" data-aos="fade-right">
                     <a class="btn work scroll" href="#projects">My Work</a>
                     <a class="btn work scroll active" href="#contact">Here me</a>
@@ -516,20 +505,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <div class="col-md-6 con-left" data-aos="fade-up">
                                 <div class="form-group">
 
-                                    <input class="form-control" type="text" name="Name" placeholder="" required="">
+                                    <input class="form-control" type="text" name="Name" placeholder="Name" required="">
                                 </div>
                                 <div class="form-group">
 
-                                    <input class="form-control" type="email" name="Email" placeholder="" required="">
+                                    <input class="form-control" type="email" name="Email" placeholder="Email" required="">
                                 </div>
                                 <div class="form-group">
 
-                                    <input class="form-control" type="text" name="Subject" placeholder="" required="">
+                                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="">
                                 </div>
                             </div>
                             <div class="col-md-6 con-right" data-aos="fade-up">
                                 <div class="form-group">
-                                    <textarea id="textarea" placeholder="" required=""></textarea>
+                                    <textarea id="textarea" placeholder="Message" required=""></textarea>
                                 </div>
                             </div>
                             <div class="sub-honey mx-auto mt-3">
@@ -589,66 +578,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--/footer-->
     <footer class="footer text-left">
         <div class="container py-4 py-sm-5">
-
-            <div class="row py-sm-4 py-3">
-                <div class="col-lg-2 col-md-4">
-                    <ul class="list-footer" data-aos="fade-up">
-                        <li>
-                            <a href="#home" class="nav-link scroll">
-                                Home
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#about" class="nav-link scroll">
-                               About
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#services" class="nav-link scroll">
-                               Services
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#projects" class="nav-link scroll">
-                              Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="nav-link scroll">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 mt-sm-5">
-                    <ul class="list-footer" data-aos="fade-up">
-                        <li>
-                            <a href="#register" data-toggle="modal" data-target="#exampleModalCenter" class="nav-link scroll">
-                                Login
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#" data-toggle="modal" data-target="#exampleModalCenter2" class="nav-link">
-                               Register
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a href="#" class="nav-link">
-                                License
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="offset-lg-4"></div>
-                <div class="col-lg-4 footer-end-grid mt-md-0 mt-sm-5" data-aos="fade-up">
-                    <h2>
-                        <a href="index.html">
-                            <i class="fas fa-crosshairs"></i> Recognize
-                        </a>
-                    </h2>
-                </div>
-            </div>
-            <hr>
             <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
                 <div class="copy-right-w3ls">
                     <p>© 2018 Recognize. All rights reserved | Design by
@@ -897,6 +826,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script>
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event) {
+                if ($(".scroll").hasClass('active')) {
+                    $(".scroll").removeClass('active');
+                }
+                $(this).addClass('active');
                 event.preventDefault();
                 $('html,body').animate({
                     scrollTop: $(this.hash).offset().top
